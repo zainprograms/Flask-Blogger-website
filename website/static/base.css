@@ -1,0 +1,13 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+    color: white ;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+.nav-item {
+    font-size: 1.1rem;
+}

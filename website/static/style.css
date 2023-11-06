@@ -1,0 +1,38 @@
+#underline {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.card-text {
+    padding-left: 5px;
+}
+
+.comment {
+    padding-left: 10px;
+}
+
+#comment-data {
+    padding-left: 5px;
+    display: inline;
+    color: black;
+}
+
+#comment-user {
+    color: black;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#thumb {
+    color: black;
+    font-size: 1.3rem;
+}
+
+#num-likes {
+    display: inline;
+    color: black;
+    padding-right: 2px;
+}

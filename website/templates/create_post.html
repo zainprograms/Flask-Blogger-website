@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Create Post page{% endblock %}
+
+{% block create %}
+<h1 align="center" class="my-3">POST</h1>
+
+<form method="POST">
+    <div class="container">
+        <textarea name="text" id="text" class="form-control" placeholder="Type our Blog Post"></textarea>
+        <div align="center">
+            <button type="submit" class=" btn btn-lg btn-primary my-3">POST</button>
+        </div>
+    </div>
+</form>
+<br>
+<div  align="center">
+    <a href="/"><button type="button" class="btn btn-secondary btn-lg">Back</button></a>
+</div>
+{% endblock %}
